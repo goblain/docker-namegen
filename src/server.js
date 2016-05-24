@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 var os = require('os');
+var sleep = require('sleep');
+
+// sleep to simulate warmup
+sleep.sleep(5);
 
 app.get('/', function(req, res) {
   var NameGenerator = require("name_generator");
