@@ -1,0 +1,9 @@
+{
+  "name": "namegen-api",
+  "description": "returns random dockerlike names",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.x",
+    "name_generator": "0.0.9"
+  }
+}
