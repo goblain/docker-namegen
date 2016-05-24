@@ -4,7 +4,7 @@ var os = require('os');
 var sleep = require('sleep');
 
 // sleep to simulate warmup
-sleep.sleep(5);
+sleep.sleep(15);
 
 app.get('/', function(req, res) {
   var NameGenerator = require("name_generator");
